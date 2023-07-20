@@ -1,0 +1,19 @@
+public int count=0;
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        // TODO add your handling code here:
+        count++;
+        jLabel1.setText("No Of Clicks:"+String.valueOf(count));
+        
+    }                                        
+
+
+
+package guilab2;
+public class GUILab2 {
+    public static void main(String[] args) 
+    {
+      ClickCounter c=new ClickCounter();
+      c.show();
+    }
+    
+}
